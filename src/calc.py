@@ -9,3 +9,8 @@ def get_fractions(valor):
       return decimal
     else:
       return float(valor)
+
+def suma(a ,b):
+    sumando_a = float(a)
+    sumando_b = float(b)
+    return sumando_a + sumando_b
