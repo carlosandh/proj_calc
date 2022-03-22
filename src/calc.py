@@ -9,3 +9,8 @@ def get_fractions(valor):
       return decimal
     else:
       return float(valor)
+
+def multiplicacion(a,b):
+    multiplicando = float(a)
+    multiplicador = float(b)
+    return multiplicando * multiplicador
